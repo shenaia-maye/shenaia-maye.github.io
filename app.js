@@ -5,7 +5,7 @@ audio.src = "bg.mp3"
 
 
 function play() {
-    audio.play()
+    // audio.play()
     var prompt = document.getElementById("prompt")
     var content = document.getElementById("content")
 
