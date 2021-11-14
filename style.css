@@ -17,7 +17,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #6D7D69;
+    color: #D6F4FC;
+    background-color: #01032660;
 }
 
 #prompt h1 {
@@ -29,13 +30,13 @@ body {
     width: min-content;
     padding: 1em;
     border-radius: 10px;
-    background-color: #6D7D69;
+    background-color: #203c73e8;
     color: #F6F7F2;
     border-style: none;
 
 }
 #prompt button:hover {
-    color: #CDDCDF;
+    color: #010326c0;
 }
 
 #content {
@@ -49,10 +50,10 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #CDDCDF;
+    background-color: #9CB0D9;
     height: 10vh;
     font-size: 6vw;
-    color:#A79766;
+    color:#010326;
 }
 
 #content h1 {
@@ -80,9 +81,13 @@ body {
     justify-content: center;
     align-items: center;
     margin: 1em;
-    color: #161925;
+    color: #AEDFF2;
 }
-
+.blog *{
+    padding: 1em;
+    margin: 0;
+    background-color: #01032696;
+}
 iframe {
     display: block;
     margin: 0 auto;
@@ -92,11 +97,12 @@ iframe {
 .credits{
     position:fixed;
     width: 100vw;
-    background-color: #6D7D69;
+    background-color: #010326;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     bottom: 0;
+    color: #9CB0D9;
 }
 
 #title{
